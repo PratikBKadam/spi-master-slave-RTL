@@ -1,0 +1,77 @@
+module tb;
+reg data_send_enable;
+reg [7:0] data_send;
+reg cs,sclk,miso;
+wire mosi;
+wire [7:0] data_received;
+wire data_receive_enable;
+spi_slave dut
+(
+	.data_send_enable(data_send_enable),
+	.data_send(data_send),
+	.cs(cs),
+	.sclk(sclk),
+	.miso(miso),
+	.mosi(mosi),
+	.data_received(data_received),
+	.data_receive_enable(data_receive_enable)
+);
+
+initial begin
+	sclk=0;
+	forever #5 sclk=~sclk;
+end
+initial begin
+	cs=1'b1;
+	miso=1'b0;
+	data_send=8'h00;
+	data_send_enable=1'b0;
+	#10;
+	cs=1'b0;
+	data_send_enable=1'b1;
+	data_send=8'ha3;
+	miso=1'b1;
+	#10;
+	data_send_enable=1'b0;
+	data_send=8'h00;
+	miso=1'b0;
+	#10;
+	miso=1'b1;
+	#10;
+	miso=1'b1;
+	#10;
+	miso=1'b0;
+	#10
+	miso=1'b0;
+	#10;
+	miso=1'b1;
+	#10;
+	miso=1'b0;
+	#10;
+	miso=1'b1;
+	data_send_enable=1'b1;
+	data_send=8'h42;
+	#10;
+	data_send_enable=1'b0;
+	data_send=8'h00;
+	miso=1'b0;
+	#10;
+	miso=1'b0;
+	#10;
+	miso=1'b1;
+	#10;
+	miso=1'b1;
+	#10
+	miso=1'b0;
+	#10;
+	miso=1'b1;
+	#10;
+	miso=1'b1;
+	#10;
+	miso=1'b0;
+	data_send=8'h00;
+	#5;
+	cs=1'b1;
+	#10;
+end
+endmodule

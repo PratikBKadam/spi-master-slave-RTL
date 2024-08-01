@@ -1,0 +1,30 @@
+module spi_slave
+(
+input [1:0] mode, // mode[1]=CPOL, MODE[0]=CPHA
+input [7:0] data_in,
+input cs,sclk,mosi,
+output reg miso,
+output reg [7:0] data_out
+);
+reg [7:0]data_send;
+reg [2:0]count;
+always @(posedge sclk or posedge cs)
+begin
+	if(cs)
+	begin
+	
+	end
+	else
+	begin
+	end
+end
+always @(negedge sclk or posedge cs)
+begin
+	if(cs)
+	begin
+	end
+	else
+	begin
+	end
+end
+endmodule

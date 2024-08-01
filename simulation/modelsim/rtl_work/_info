@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/simulation/modelsim
+vspi
+Z1 !s110 1722348126
+!i10b 1
+!s100 FY_a8li4YB`?3]1JAUkT`2
+ISkRM5W5cTJKj3[1R5Oczl0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1721538830
+8G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi.v
+FG:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1722348126.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi|G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi}
+Z7 tCvgOpt 0
+vspi_master
+R1
+!i10b 1
+!s100 D1=6Mb2V_Z`9YNLmRI94g3
+I_G9KNQSfMP2^I:HHEWm<^0
+R2
+R0
+w1721538653
+8G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi_master/spi_master.v
+FG:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi_master/spi_master.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi_master/spi_master.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi_master|G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi_master/spi_master.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi_master}
+R7
+vspi_slave
+R1
+!i10b 1
+!s100 `4zo<6`fZ@dT4BO3FC>Ej3
+I_NlW1So:FAM@VkZ;fnlb`2
+R2
+R0
+w1721538629
+8G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi_slave/spi_slave.v
+FG:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi_slave/spi_slave.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1722348125.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi_slave/spi_slave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi_slave|G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi_slave/spi_slave.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi_slave}
+R7
+vtb
+R1
+!i10b 1
+!s100 >e@9<1EXBkE9Oe]1UEIG@0
+ISIiGBJKZlI[`OM@QCaZ4:1
+R2
+R0
+w1721539417
+8G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/tb.v
+FG:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi|G:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/tb.v|
+!i113 1
+R5
+R6
+R7

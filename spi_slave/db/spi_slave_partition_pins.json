@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "miso",
+					"strict" : false
+				},
+				{
+					"name" : "data_receive_slave[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_receive_slave[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_receive_slave[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_receive_slave[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_receive_slave[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_receive_slave[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data_receive_slave[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_receive_slave[7]",
+					"strict" : false
+				},
+				{
+					"name" : "data_receive_slave_enable",
+					"strict" : false
+				},
+				{
+					"name" : "sclk",
+					"strict" : false
+				},
+				{
+					"name" : "cs",
+					"strict" : false
+				},
+				{
+					"name" : "mosi",
+					"strict" : false
+				},
+				{
+					"name" : "data_send_slave[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_send_enable",
+					"strict" : false
+				},
+				{
+					"name" : "data_send_slave[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_send_slave[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_send_slave[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_send_slave[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_send_slave[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_send_slave[7]",
+					"strict" : false
+				},
+				{
+					"name" : "data_send_slave[5]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

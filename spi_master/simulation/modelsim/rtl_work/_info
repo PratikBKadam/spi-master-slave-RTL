@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/pratik/Pratik IMP documents/COEP/College/VLSI/spi/spi_master/simulation/modelsim
+vspi_master
+!s110 1721626393
+!i10b 1
+!s100 D1=6Mb2V_Z`9YNLmRI94g3
+IHL3a3Y^TSaXjCSjSY=Sai1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1721538653
+8G:/pratik/Pratik IMP documents/COEP/College/VLSI/SPI/spi_master/spi_master.v
+FG:/pratik/Pratik IMP documents/COEP/College/VLSI/SPI/spi_master/spi_master.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1721626393.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/VLSI/SPI/spi_master/spi_master.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/VLSI/SPI/spi_master|G:/pratik/Pratik IMP documents/COEP/College/VLSI/SPI/spi_master/spi_master.v|
+!i113 1
+Z3 o-vlog01compat -work work
+Z4 !s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/VLSI/SPI/spi_master}
+Z5 tCvgOpt 0
+vtb
+!s110 1721626394
+!i10b 1
+!s100 GhTO;h0]:YdLLn6Q[PV_N1
+IOjlj@QDe08doCcz;U=_9z1
+R1
+R0
+w1721538387
+8G:/pratik/Pratik IMP documents/COEP/College/VLSI/SPI/spi_master/tb.v
+FG:/pratik/Pratik IMP documents/COEP/College/VLSI/SPI/spi_master/tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1721626394.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/VLSI/SPI/spi_master/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/VLSI/SPI/spi_master|G:/pratik/Pratik IMP documents/COEP/College/VLSI/SPI/spi_master/tb.v|
+!i113 1
+R3
+R4
+R5
